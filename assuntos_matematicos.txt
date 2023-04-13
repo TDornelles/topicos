@@ -48,5 +48,9 @@ Listas
 
 ( s-exp . ( s-exp . ( s-exp . nil) )
 
-'nil' não é elemento
+'nil' não é elemento somente se estiver na direita do par pontuado
+se 'nil' estiver na esquerda, é elemento
 Listas sempre terminam em 'nil'
+Listas são árvores degeneradas que só crescem apenas para a direita
+Todas as listas têm nil na extrema direita
+Toda expressão 'S' que tem nil na extrema direita é lista!!!!
