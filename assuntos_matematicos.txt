@@ -1,0 +1,16 @@
+função
+domínio 
+contra-domínio (imagem)
+possíveis definições de função
+definição condicional, definição recorrente
+variável
+
+Existe o conjunto dos átomos
+
+Existe o conjunto das listas
+
+Eles tem uma interssecção de apenas um elemento 'nil'
+
+Uma lista só é átomo se for vazia (nil)
+
+Tanto listas como átomos são expressões 'S'
