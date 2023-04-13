@@ -14,3 +14,39 @@ Eles tem uma interssecção de apenas um elemento 'nil'
 Uma lista só é átomo se for vazia (nil)
 
 Tanto listas como átomos são expressões 'S'
+
+Nas S expressões temos pares pontuados formados por quaisquer S expressões
+
+Qualquer S expressão pode estar em qualquer parte do par pontuado
+
+( X . Y )
+
+( X . ( A . B ) )  
+
+Esses pares pontuados podem ser representados como árvores
+
+	.
+       / \
+      /   \
+     /	   \	
+    X       . 
+    	   / \
+	  /   \
+	 /     \
+	A       B
+
+É uma árvore binária
+Não existe árvore vazia
+Toda árvore começa com um ponto
+Pontos não contam como elementos
+
+
+Listas
+( s-exp .nil )
+
+( s-exp . ( s-exp . nil) )
+
+( s-exp . ( s-exp . ( s-exp . nil) )
+
+'nil' não é elemento
+Listas sempre terminam em 'nil'
