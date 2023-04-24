@@ -1,0 +1,1 @@
+kelvinToCelsius(K,C):-C is K-275.15.

@@ -1,0 +1,1 @@
+areaParalelogramo(B,H,A):-A is B*H.

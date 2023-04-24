@@ -1,0 +1,1 @@
+areaTrapezio(BMAIOR,BMENOR,H,A):- C is BMAIOR+BMENOR, A is C*H/2.

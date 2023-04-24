@@ -1,0 +1,1 @@
+areaRetangulo(BMAIOR, BMENOR, A):-A is BMAIOR*BMENOR.

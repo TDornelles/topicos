@@ -1,0 +1,1 @@
+areaCirculo(R,A):- A is R*R*3.1415.

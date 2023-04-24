@@ -1,0 +1,1 @@
+areaQuadrado(L,A):-A is L*L.

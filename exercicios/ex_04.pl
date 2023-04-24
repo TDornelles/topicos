@@ -1,0 +1,1 @@
+rakineToCelsius(R,C):-A is R/1.8, kelvinToCelsius(A,C).

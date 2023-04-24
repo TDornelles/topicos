@@ -1,0 +1,10 @@
+numExtenso(0, zero).
+numExtenso(1, um).
+numExtenso(2, dois).
+numExtenso(3, tres).
+numExtenso(4, quatro).
+numExtenso(5, cinco).
+numExtenso(6, seis).
+numExtenso(7, sete).
+numExtenso(8, oito).
+numExtenso(9, nove).

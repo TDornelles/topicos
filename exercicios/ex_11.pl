@@ -1,0 +1,1 @@
+areaPoligono(Q,B,H,A):- A is Q*B*H/2.

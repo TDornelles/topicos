@@ -1,0 +1,1 @@
+areaTriangulo(B,H,A):-A is B*H/2.

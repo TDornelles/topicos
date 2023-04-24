@@ -1,0 +1,1 @@
+fahrenheitToCelsius(F, C):-A is F-32, B is A*5, C is B/9.

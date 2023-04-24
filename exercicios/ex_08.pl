@@ -1,0 +1,1 @@
+areaLosango(DMAIOR, DMENOR, A):-A is DMAIOR*DMENOR/2.
