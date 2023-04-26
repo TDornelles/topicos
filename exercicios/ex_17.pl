@@ -1,0 +1,1 @@
+triangulo(A,B,C):- A<B+C, B<A+C, C<B+C.
