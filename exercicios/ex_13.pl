@@ -1,0 +1,1 @@
+imc(P,H,IMC):-A is H*H, IMC is P/A.
