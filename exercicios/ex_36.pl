@@ -1,0 +1,1 @@
+primeiro_elemento([Head|_],Head).
