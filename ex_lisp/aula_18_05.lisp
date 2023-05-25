@@ -11,6 +11,13 @@
     )
 )
 
+(defun subt(X Y)
+    (cond ((eq Y 0) X)
+          ((negativo Y) (subt(1+ X) (1+ Y)))
+          ('T (soma (1- X) (1- Y)))
+    )
+)
+
 (defun negativo(X)
     (cond ((eq X 0) 'nil)
           ('T (ehNeg X X))
@@ -24,17 +31,30 @@
     )
 )
 
+(defun negacao (X)
+    (cond
+        (X 'nil)
+        ('T 'T)
+     )
+)
+
 (defun maior(X Y)
     (cond ((eq X Y) 'nil)
-          ('T (negativo X) 'nil (negativo Y) Y)
-          ('T (negativo Y) 'nil (negativo X) X)
+          ((negativo (soma X Y)) 'T)
+          ((negativo Y)())
      )
 )
 
 (defun menor (X Y)
-     (cond ((eq X Y) 'nil)
-          ('T (negativo X) 'nil (negativo Y) Y)
-          ('T (negativo Y) 'nil (negativo X) X)
+     (cond
+          ((eq Y 0) (negativo X))
+          ((eq X 0) (negacao (negativo Y)))
+          ((negativo X) cond((negativo Y)(menor (1+ X)(1+ Y))
+                             ('T 'T)
+                             )
+          )              
+          ((negativo Y) 'nil )
+          ('T (menor (1- X)(1- Y)))
       )
 )
 
@@ -46,3 +66,5 @@
 (print (soma 5 -2))
 (print (soma -5 3))
 (print (maior 4 5))
+(print (subt -5 3))
+(print (subt 5 3))
